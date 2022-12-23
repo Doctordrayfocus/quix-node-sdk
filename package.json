@@ -1,6 +1,6 @@
 {
   "name": "quix-node-sdk",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Quix nodejs SDK",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
