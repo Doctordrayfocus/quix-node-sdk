@@ -1,4 +1,5 @@
 import QuixConnector from "./Connector";
+import * as signalR from "@microsoft/signalr";
 
 export interface IncomingEventData {
     dateTime: string
