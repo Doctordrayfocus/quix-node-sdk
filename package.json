@@ -1,23 +1,25 @@
 {
   "name": "quix-node-sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Quix nodejs SDK",
-   "main": "lib/index.js",
+  "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
-    "prepare" : "npm run build",
-    "version" : "npm run format && git add -A src",
-    "postversion" : "git push && git push --tags"
+    "prepare": "npm run build",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Doctordrayfocus/quix-node-sdk.git"
   },
-  "keywords": ["Event-streaming", "Quix"],
+  "keywords": [
+    "Event-streaming",
+    "Quix"
+  ],
   "author": "Ayomide Akinola",
   "license": "ISC",
   "bugs": {
@@ -34,5 +36,7 @@
   "dependencies": {
     "@microsoft/signalr": "^7.0.0"
   },
-  "files": ["lib/**/*"]
+  "files": [
+    "lib/**/*"
+  ]
 }
